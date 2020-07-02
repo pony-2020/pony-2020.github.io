@@ -1,7 +1,12 @@
-#include <stdio.h>
-void main()
+#include <sitoi.h>
+#include < stdlib.h>
+#define N 1000
+
+int main()
 {
-	printf("this is radio rate .");
-	return ;
+   volatile int i = 0 ;
+   volatile int h = i + N ;
+   return 0;
 
 }
+
